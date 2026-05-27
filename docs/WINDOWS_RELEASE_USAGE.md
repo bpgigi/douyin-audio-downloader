@@ -5,7 +5,13 @@
 解压发布包后，双击：
 
 ```text
-抖音音频下载工具.exe
+DouyinAudioDownloader.exe
+```
+
+也可以双击：
+
+```text
+双击启动.bat
 ```
 
 如果 Windows 提示安全提醒，请选择“更多信息”，再点“仍要运行”。
