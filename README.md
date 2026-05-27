@@ -20,6 +20,24 @@ python -m pip install -r requirements.txt
 
 ## 使用
 
+Windows 图形界面：
+
+```powershell
+python .\windows_app.py
+```
+
+也可以双击：
+
+```text
+run_windows_app.bat
+```
+
+Windows 发布包用户请看：
+
+```text
+docs/WINDOWS_RELEASE_USAGE.md
+```
+
 统一入口：
 
 ```powershell

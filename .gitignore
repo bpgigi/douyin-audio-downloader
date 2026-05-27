@@ -2,5 +2,9 @@
 __pycache__/
 *.pyc
 downloads/
+build/
+dist/
+release/
+*.spec
 .env
 .DS_Store

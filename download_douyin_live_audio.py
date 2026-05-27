@@ -150,6 +150,10 @@ def room_id_from_live_page(url: str) -> str | None:
 
     html = read_url(f"https://live.douyin.com/{path_id}")
     patterns = [
+        r'roomStore.*?roomInfo.*?room.*?id_str\\":\\"(\d+)\\"',
+        r'"roomStore".*?"roomInfo".*?"room".*?"id_str"\s*:\s*"(\d+)"',
+        r'id_str\\":\\"(\d+)\\",\\"status\\":2',
+        r'"id_str"\s*:\s*"(\d+)"\s*,\s*"status"\s*:\s*2',
         r'roomId%22%3A%22(\d+)%22',
         r'"roomId"\s*:\s*"(\d+)"',
         r'"room_id"\s*:\s*"(\d+)"',
